@@ -1,17 +1,25 @@
 import React from "react"
 import './Navbar.css'
+import selfPhoto from './assets/Photo1.jpg'
+import { Outlet, Link } from "react-router-dom"
 
-function NavBar() {
+const NavBar = () => {
     return (
-      <div id="nav">
+      <>
+        <nav>
         <ul>
-          <li>Alexander Lewis</li>
-          <li>About Me</li>
-          <li>Education/Skills</li>
-          <li>Projects</li>
+          <li><Link to="/">Alexander Lewis</Link></li>
+          <li><Link to="/AboutMe">About Me</Link></li>
+          <li><Link to='/Education_Skills'>Education</Link></li>
+          <li><Link to='/Projects'>Projects</Link></li>
         </ul>
-      </div>
+      </nav>
+
+      <Outlet />
+      </>
     )
   }
 
 export default NavBar
+
+//<img src={selfPhoto} />
