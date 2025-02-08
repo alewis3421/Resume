@@ -1,0 +1,18 @@
+#nav {
+    height: 75px;
+    background-color: blue;
+}
+Ul {
+    display: flex;
+    list-style: none;
+    margin: auto;
+    padding-top: 20px;
+}
+li {
+    margin: auto;
+    font-size: 25px;
+}
+img {
+    height: 75px;
+    
+}
