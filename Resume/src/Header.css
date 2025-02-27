@@ -1,0 +1,22 @@
+ul {
+    display: flex;
+    list-style-type: none;
+    text-align: center; 
+    float: right;
+    margin: auto;
+    height: 75px;
+}
+#navbar{
+    background-color: aqua;
+    width: 100vw;
+    display: flex;
+    margin:auto;
+}
+body {
+    margin: 0;
+}
+li {
+    text-decoration: none;
+    font-size: 2em;
+    margin: 12px 20px;
+}
